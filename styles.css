@@ -1,0 +1,484 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    max-width: 860px;
+    margin: 0 auto;
+}
+/* Basic Styles */
+header {
+    background-color: #3A2E2F;
+    height: 67px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+#menu{
+min-width: 860px;
+}
+header nav ul li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+    display: none;
+    align-self:flex-end;
+    position: relative;
+    left: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+
+@media (max-width: 768px) {
+body{
+    width: 768px !important;
+    overflow-x: hidden;
+}
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #3A2E2F;
+        position: absolute;
+        top: 67px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    .whatwedo
+    {
+        width: 100%;
+        height: 1138px !important;
+    }
+    .whatwedoinfo{
+      
+    }
+.whatwedoicons{
+    position: relative;
+   margin-top: 60px;
+    width: 93px;
+    height: 642px;
+
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    
+    .wht{
+        width: 90%;
+        height: 327px;
+    
+    }
+    .wht h2{
+        width: 174px;
+height: 38px;
+left: 20%;
+position: relative;
+
+
+
+    }
+    .wht p{
+  
+        width: 332px !important;
+height: 266px;
+left: 10%;
+
+    }
+
+    .gallerycards img
+    {
+       width: 100% !important;
+    }
+
+    .want-to-go{
+
+        height: 529px !important;
+    }
+    .wantgoinfo{
+        display:flex;
+        flex-direction: column;
+    }
+    .wantgoinfo .gotext{
+        width: 90% !important;
+        margin: 0 auto;
+height: 114px;
+    }
+    .wantgoinfo .rbox{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .reviews{
+        height: 529px !important;
+        
+    }
+    .rcard {
+       position: relative;
+       left: 10% !important;
+       margin-top: 5% !important;
+    }
+    .img-gal{
+        display: grid;
+        grid-template-columns: 1fr !important;
+
+    }
+    .gallerycards{
+       display: block !important;
+    }
+    .trip{
+        width: 100% !important;
+    }
+}
+
+.menu-open nav ul {
+    display: flex;
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+.about{
+    padding: 10%;
+}
+.aboutinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutinfo h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.aboutinfo p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 18.75px;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    width: 98%;
+
+}
+.about-text-left{
+    width: 388px;
+    height: 310.32px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.about-img-right{
+    width: 423px;
+    height: 310px;
+    left: 433px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+
+}
+.whatwedo{
+    background-color:#33292A;
+    height: 591px;
+}
+
+.wht{
+  position: relative;
+  top: 80px;
+    width: 856px;
+    height: 156px;
+
+
+
+
+}
+.whatwedoinfo{
+    color: white;
+    position: relative;
+    text-align: center;
+    
+}
+.whatwedoinfo h2{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+
+
+}
+
+.whatwedoinfo p {
+    font-family: Roboto;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+
+}
+.whatwedoicons{
+    position: absolute;
+    top: 356px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.gallerycards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px !important;
+    padding-top: 7%;
+    padding-bottom: 7%;
+} 
+
+.gallerycards img{
+    margin: 0.4%;
+}
+
+.trip{
+text-align: center; 
+width: 272px;
+height: 222px;
+background-color: #F2F2F2;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+display: inline-block;
+}
+
+.trip h1{
+position: relative;
+top: 40%;
+font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+}
+
+.want-to-go{
+background-color: #644B4F;
+height:400px;
+height: 400px;
+}
+
+.wantgoinfo{
+    display: flex;
+    position: relative;
+    top:100px;
+}
+
+.wantgoinfo .gotext{
+font-family: Roboto;
+font-size: 32px;
+color: white;
+font-weight: 700;
+line-height: 37.5px;
+width: 272px;
+height: 114px;
+gap: 0px;
+opacity: 0px;
+
+ 
+    
+}
+.wantgoinfo .rbox{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+color: white;
+text-align: left;
+width: 572px;
+height: 201px;
+}
+
+
+.wantgoinfo .contact{
+color: black;
+text-decoration: none;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+text-align: left;
+position: relative;
+top: 40px;
+padding: 10px 15px;
+background-color: white;
+border-radius: 4px;
+opacity: 0px;
+}
+.reviewinfo{
+    height: 159px;
+    gap: 0px;
+    margin-top: 40px;
+    opacity: 0px;
+    padding-top: 4%;
+    
+}
+.reviewinfo h2{
+    font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+line-height: 37.5px;
+
+}
+.reviewinfo p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: center;
+
+}
+.title{
+    text-align: center;
+}
+.rheading{
+    display: inline-block;
+    text-align: center;
+    width: 332px;
+    width: 332px;
+    height: 159px;
+}
+.rheading h2{
+}
+
+.rheading p{
+    margin-top: 26px;
+}
+
+.rcards{
+    display: grid;
+    /* padding-top: 5%; */
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+.rcard {
+    width: 378.49px;
+    height: 346px;
+    margin: 2%;
+    display: inline-block;
+    text-align: center;
+}
+.rcard p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+padding: 10px;
+text-align: center;
+margin-top: 35px;
+width: 378.49px;
+height: 133px;
+
+
+
+}
+
+.rcard h3{
+font-family: Roboto;
+font-size: 16px;
+padding: 10px;
+font-weight: 700;
+line-height: 18.75px;
+text-align: center;
+margin-top: 48px;
+height: 19px;
+
+
+}
+.gall2{
+    width: 100%;
+    position: relative;
+ 
+}
+.img-gal{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-gal img{
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: #33292a;
+    color: white;
+  }
+  
+  .contact{
+  font-family: "Roboto", sans-serif;
+  color: #efa69d;
+  text-decoration: underline;
+  }
+
+  .rights{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+  }
+@media only screen and (max-width: 768px) {
+    .aboutinfo{
+        grid-template-columns: 1fr;
+    }
+    .rcards{
+        grid-template-columns: 1fr;
+    }
+    .cont{
+        /* width: 768px !important;
+        overflow: hidden !important; */
+    }
+  }
+  
